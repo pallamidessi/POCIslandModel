@@ -3,7 +3,6 @@
 #include <cmath>
 #include <climits>
 #include <cfloat>
-#include <memory.h>
 #include <vector>
 
 #include <boost/archive/text_iarchive.hpp>
