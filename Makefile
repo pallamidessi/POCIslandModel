@@ -1,4 +1,4 @@
-CXXFLAGS += -fopenmp -O2 -g -Wall 
+CXXFLAGS += -fopenmp -O2 -g -Wall -std=c++11 
 OBJS_SERVER = PoCServer.o
 OBJS_CLIENT = PoCClient.o
 LDFLAGS += -lpthread -fopenmp -lboost_system -lboost_serialization -lboost_iostreams 
