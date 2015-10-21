@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <cstudio>
+#include <cstdio>
 
 Individual createTestIndividual(const int nbFares) {
     Fare tmp;
@@ -33,6 +33,6 @@ int main(int argc, const char *argv[]) {
     const int port = 1337;
 
     const auto indiv = createTestIndividual(nbFares);
-    migrate(indiv, "localhost", port);
+    island::sender::migrate(indiv, "localhost", port);
     return 0;
 }

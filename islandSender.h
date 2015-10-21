@@ -17,6 +17,7 @@
 #include <boost/iostreams/copy.hpp>
 using boost::asio::ip::udp;
 
+namespace island {
 enum SerializationMode {
     TEXT,
     BINARY
@@ -91,3 +92,4 @@ class sender {
   private:
     /* data */
 };
+}
